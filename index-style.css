@@ -1,0 +1,179 @@
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.hero video {
+    height: 50vmax;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about {
+    background: url(assets/about-roll-image.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divide:last-of-type h1 {
+    padding-bottom: .14em
+}
+
+.about h2 {
+    font-size: 3vw;
+}
+
+.reset {
+    font-style:normal;
+    padding-bottom: 0.2em;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.endorsement {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vw;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+}
+
+.endorsement h2 {
+    margin-bottom: 12vw;
+}
+
+.quotes {
+    display: none;
+}
+
+.endorsement .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.quote p:first-of-type {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4vw;
+    letter-spacing: -1px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+.quote p:last-of-type {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    align-self: flex-end;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+.product-info img {
+    width: 50vw;
+}
+
+.product-info ul li {
+    margin-bottom: 2vw;
+}
+
+.product-info ul li h2 {
+    background-color: #fff;
+    font-style: normal;
+}
+
+.product-info ul li h2 span {
+    background-color: var(--primary-color);
+    font-style: italic;
+    padding: 0 .15em;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: repeat(2);
+    gap: 10px;
+    grid-auto-rows: minmax(25vmin, auto);
+    align-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 3vmin 0;
+}
+
+.featured div {
+    width: 30vw;
+}
+
+.featured p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 2vmin;
+}
+
+.highsnobiety {
+    grid-column: 1/1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    text-align:center;
+}
+
+.complex {
+    grid-column: 2/2;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.complex img {
+    width: 15vw;
+}
+
+.hypebeast {
+    grid-column: 1/1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    text-align:center;
+}
+
+.i-d {
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/2;
+    grid-row: 2;
+    text-align:center;
+}
+
+.i-d img {
+    width: 5vw;
+}
