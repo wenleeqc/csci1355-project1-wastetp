@@ -44,7 +44,7 @@ h2 {
 }
 
 
-/* --- navigation button default --- */
+/* ___________________________________________ navigation button default ___________________________________________ */
 
 .container {
     transform-origin: top left;
@@ -124,7 +124,7 @@ nav .menu-hamburger-open::after {
     opacity: 0;
 }
 
-/* --- navigation menu --- */
+/* ___________________________________________ navigation menu ___________________________________________ */
 
 .nav-menu {
     background-color: #000;
@@ -220,6 +220,8 @@ header {
 #waste-logo {
     width: 10vw;
 }
+
+/* ___________________________________________ footer styles ___________________________________________ */
 
 footer {
     background-color: var(--primary-color);
@@ -382,8 +384,4 @@ footer .end {
     visibility:visible;
     opacity: 1;
     transform: translateX(0vw);
-}
-
-b {
-    font-family: 'Open Sans', sans-serif;
 }
