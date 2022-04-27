@@ -4,6 +4,9 @@ A website I designed for a premium toilet paper company. It's a parody of Suprem
 
 A working demo can be found here: https://wastetp.glitch.me/
 
+## Walkthrough
+![walkthrough_landscape](https://user-images.githubusercontent.com/74733659/165561718-ceb309f6-1722-41dc-83ac-dba526d4bd59.gif)
+
 ## Built With
 - HTML
 - CSS
